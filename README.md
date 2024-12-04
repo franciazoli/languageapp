@@ -1,5 +1,3 @@
-See https://youtu.be/2Bxh5FNGznQ for a full walk through on spinning up this full-stack Php web app with MySql and phpMySql
-
 Requirements: 
 * Docker 
 
@@ -24,5 +22,3 @@ Otherwise skip to Step 6.
 8. Copy contents of ./db/questions_table.sql, click on php_docker database and paste it into PHP My Admin SQL interface. Same with users_table.sql
 
 9. Browser: `localhost`
-
-Open the interactive terminal with your docker container that's running the `www` service and run the command: `docker-php-ext-install mysqli && docker-php-ext-enable mysqli && apachectl restart`
