@@ -1,0 +1,88 @@
+/* Alap beállítások a teljes oldalra, a !important azt segíti elő, hogy felülírja a Bootstrap alapértelmezett stílusait */
+body {
+    background-color: #dad7cd !important;  /* Nem tiszta fehér, hanem egy pasztell árnyalat */
+    color: darkslategray !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Általános konténer, mely stílusos, lekerekített panelt hoz létre */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: #a3b18a !important;  /* Meleg, krémes árnyalat */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Fejléc stílus - minden oldalon egységesen használható */
+  header {
+    background: linear-gradient(135deg, #344e41,  #588157) !important;
+    padding: 1em;
+    color: #dad7cd !important;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+    .card {
+      background-color: #dad7cd;
+      border: 1px solid #344e41;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: none;
+      margin-right: 1rem;
+    }
+
+    .btn-primary {
+      background-color: #3a5a40;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: #344e41;
+    }
+
+    .btn-success {
+      background-color: #588157;
+    }
+
+    .btn-success:hover {
+      background-color: #3a5a40;
+    }
+
+    .btn-secondary {
+      background-color: #a3b18a;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background-color: #588157;
+    }
+
+    .btn-danger {
+      background-color: transparent;
+      color: darkslategray;
+    }
+
+    .btn-danger:hover {
+      background-color: #a3b18a;
+      color: darkslategray;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem 1rem;
+      color: var(--text-muted);
+    }
